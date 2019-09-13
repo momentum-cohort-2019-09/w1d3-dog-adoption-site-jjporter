@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.header{
+    background-color: #2B3B7B;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 3rem;
+    padding: 30px;
+    margin-bottom: 2rem;
+}
+
+.animal-inputs p{
+    padding: 1rem 0;
+}
+
+.animal-inputs{
+    background-color: rgb(214,214,214);
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+.gender{
+    padding: 3rem;
+}
+
+.age{
+    padding: 3rem;
+}
+
+.size{
+    padding: 3rem;
+}
+
+.personality{
+    padding: 3rem;
+}
+
+.traits{
+    flex-wrap: wrap;
+}
+
+.traits p{
+    display: inline;
+    flex-wrap: wrap;
+    background-color: rgb(131, 229, 241);
+    border-radius: 5px;
+}
+
+.dog-pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dog-container{
+    background-color: red;
+    padding: 3rem;
+}
+
+.dog-container img{
+    display: flex;
+    width: 300px;
+}
+
+li{
+    list-style: none;
+    padding: 0;
+}
+
+/* .dog-pics{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    max-width: 100%;
+    margin: 0;
+}
+
+.bottom{
+    text-align: center;
+    flex: auto;
+    height: 300px;
+}
+
+.donate{
+    background: linear-gradient(rgba(30, 9, 110, 0.8), rgba(30, 9, 110, 0.8)) 
+        no-repeat center/cover url('starter_files/images/donate.jpg');
+    background-color: orange;
+}
+
+.volunteer{
+    background: linear-gradient(rgba(30, 9, 110, 0.8), rgba(30, 9, 110, 0.8))
+    no-repeat center/cover url('starter_files/images/volunteer.jpg');
+    background-color: teal;
+}
+
+.location{
+    background: linear-gradient(rgba(30, 9, 110, 0.8), rgba(30, 9, 110, 0.8))
+    no-repeat center/cover url('starter_files/images/location.png');
+    background-color: red;
+}
